@@ -1,7 +1,7 @@
 ![home page](https://github.com/1lhan/forum/assets/98101371/e84d6a26-5271-430d-8e8c-15b6821048bc)
 ![add topic section](https://github.com/1lhan/forum/assets/98101371/35cc518d-ba56-4c1a-b266-5a8c38d67124)
 ![category page](https://github.com/1lhan/forum/assets/98101371/af0e4e35-8d77-4756-9960-f6f53b1cb04a)
-![register page](https://github.com/1lhan/forum/assets/98101371/43c0b385-4db7-431d-9d65-95766577d6c9)
+![topic page](https://github.com/1lhan/forum/assets/98101371/f2a71441-8bbc-4234-aee7-46b4c94705f8)
 ![user page](https://github.com/1lhan/forum/assets/98101371/f0561913-01da-4dfe-b492-7d4351b6ea43)
 ![login page](https://github.com/1lhan/forum/assets/98101371/b69a94ac-16a2-44ec-9d7e-8f464cc2e31d)
 ![register page](https://github.com/1lhan/forum/assets/98101371/8c010507-0bd9-41c8-9182-40e5f6c8ef14)
