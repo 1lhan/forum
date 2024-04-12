@@ -45,14 +45,19 @@ router.post('/login', async (req, res) => {
 })
 
 router.post('/auto-login', async (req, res) => {
-    const token = req.body.token.slice(6, req.body.token.length)
-    if (!token) return res.json({ success: false })
+    try {
+        const token = req.body.token.slice(6, req.body.token.length)
+        if (!token) return res.json({ success: false })
 
-    let verify = jwt.verify(token, process.env.SECRET_TOKEN)
-    if (!verify) return res.json({ success: false })
+        let verify = jwt.verify(token, process.env.SECRET_TOKEN)
+        if (!verify) return res.json({ success: false })
 
-    let user = await UserModel.findOne({ _id: verify._id }).select('-password')
-    return res.json({ success: !!user, user: user ? user : false })
+        let user = await UserModel.findOne({ _id: verify._id }).select('-password')
+        return res.json({ success: !!user, user: user ? user : false })
+    }
+    catch (error) {
+        return res.json({ success: false })
+    }
 })
 
 router.post('/change-password', async (req, res) => {
